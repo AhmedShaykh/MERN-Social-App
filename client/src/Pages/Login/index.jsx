@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Typography, useTheme, useMediaQuery } from "@mui/material";
+import Form from './Form';
 
 const Login = () => {
 
@@ -30,6 +31,7 @@ const Login = () => {
                 <Typography fontWeight="500" variant="h3" sx={{ mb: "1.2rem" }}>
                     Welcome to Axpedia
                 </Typography>
+                <Form />
             </Box>
         </Box>
     )
